@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "items": 25,
+      "emoji": "🍕",
+      "color": "#FF6B6B",
+      "products": [
+        { "id": 1, "name": "Margherita Classic", "weight": "350g", "price": 9.99, "rating": 4.5, "stars": 4, "description": "Fresh tomato sauce, mozzarella, basil on a crispy thin crust. Simple and timeless." },
+        { "id": 2, "name": "Pepperoni Supreme", "weight": "400g", "price": 12.50, "rating": 4.8, "stars": 5, "description": "Loaded with pepperoni slices, extra cheese and a rich tomato base." },
+        { "id": 3, "name": "BBQ Chicken", "weight": "420g", "price": 13.99, "rating": 4.3, "stars": 4, "description": "Smoky BBQ sauce, grilled chicken, red onion and mozzarella cheese." }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Salads",
+      "items": 30,
+      "emoji": "🥗",
+      "color": "#4CAF50",
+      "products": [
+        { "id": 4, "name": "Fried rice with egg and onion", "weight": "250g", "price": 7.50, "rating": 4.0, "stars": 4, "description": "The secret to the best Chinese Fried rice is onions, garlic and sesame oil, you may add in cooked chicken, beef, pork or shrimp, also you may add in some frozen thawed peas or fresh sautéed or canned mushrooms, whatever you have handy in your fridge!" },
+        { "id": 5, "name": "Savannah chopped salad", "weight": "300g", "price": 3.00, "rating": 4.2, "stars": 4, "description": "Fresh chopped greens with savannah spices, cherry tomatoes and a light vinaigrette dressing." },
+        { "id": 6, "name": "Autumn carved Turkey salad", "weight": "250g", "price": 8.99, "rating": 4.5, "stars": 4, "description": "Seasonal carved turkey with autumn roasted vegetables, cranberry glaze and mixed greens." }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": 30,
+      "emoji": "🍰",
+      "color": "#FF9800",
+      "products": [
+        { "id": 7, "name": "Chocolate Lava Cake", "weight": "180g", "price": 6.50, "rating": 4.9, "stars": 5, "description": "Warm chocolate cake with a molten center, served with vanilla ice cream." },
+        { "id": 8, "name": "Tiramisu Classic", "weight": "200g", "price": 5.99, "rating": 4.7, "stars": 5, "description": "Traditional Italian dessert with espresso-soaked ladyfingers and mascarpone cream." },
+        { "id": 9, "name": "Crème Brûlée", "weight": "150g", "price": 7.25, "rating": 4.6, "stars": 4, "description": "Classic French custard with a perfectly caramelized sugar crust on top." }
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta",
+      "items": 44,
+      "emoji": "🍝",
+      "color": "#FFC107",
+      "products": [
+        { "id": 10, "name": "Spaghetti Carbonara", "weight": "320g", "price": 10.99, "rating": 4.8, "stars": 5, "description": "Traditional Roman pasta with guanciale, egg yolk, Pecorino Romano and black pepper." },
+        { "id": 11, "name": "Penne Arrabbiata", "weight": "300g", "price": 9.50, "rating": 4.2, "stars": 4, "description": "Spicy tomato sauce with garlic and fresh chili, tossed with penne pasta." },
+        { "id": 12, "name": "Fettuccine Alfredo", "weight": "340g", "price": 11.50, "rating": 4.5, "stars": 4, "description": "Creamy Parmesan sauce coating silky fettuccine noodles." }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "items": 30,
+      "emoji": "☕",
+      "color": "#9C27B0",
+      "products": [
+        { "id": 13, "name": "Fresh Lemonade", "weight": "400ml", "price": 3.50, "rating": 4.3, "stars": 4, "description": "Freshly squeezed lemons with mint, sparkling water and a hint of honey." },
+        { "id": 14, "name": "Mango Smoothie", "weight": "350ml", "price": 4.99, "rating": 4.6, "stars": 5, "description": "Tropical mango blended with coconut milk and a squeeze of lime." },
+        { "id": 15, "name": "Espresso Doppio", "weight": "60ml", "price": 2.99, "rating": 4.9, "stars": 5, "description": "Double shot of premium espresso with a rich crema on top." }
+      ]
+    }
+  ]
+}
