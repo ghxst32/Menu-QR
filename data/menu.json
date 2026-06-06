@@ -1,0 +1,65 @@
+{
+  "whatsapp": "526681234567",
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "items": 25,
+      "emoji": "🍕",
+      "bg": "#FFF0ED",
+      "products": [
+        { "id": 1, "name": "Margherita Classic", "weight": "350g", "price": 9.99, "stars": 4, "emoji": "🍕", "description": "Salsa de tomate fresco, mozzarella y albahaca sobre una base crujiente. Simple y deliciosa." },
+        { "id": 2, "name": "Pepperoni Supreme", "weight": "400g", "price": 12.50, "stars": 5, "emoji": "🍕", "description": "Cargada con rodajas de pepperoni, queso extra y una rica base de tomate." },
+        { "id": 3, "name": "BBQ Chicken", "weight": "420g", "price": 13.99, "stars": 4, "emoji": "🍕", "description": "Salsa BBQ ahumada, pollo a la parrilla, cebolla morada y queso mozzarella." }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Ensaladas",
+      "items": 30,
+      "emoji": "🥗",
+      "bg": "#EDFAF0",
+      "products": [
+        { "id": 4, "name": "Arroz frito con huevo", "weight": "250g", "price": 7.50, "stars": 4, "emoji": "🍳", "description": "El secreto es el aceite de sésamo y la cebolla. Puedes agregar pollo, res o camarón a elección." },
+        { "id": 5, "name": "Ensalada Savannah", "weight": "300g", "price": 5.00, "stars": 4, "emoji": "🥗", "description": "Vegetales frescos picados con especias, tomates cherry y vinagreta ligera." },
+        { "id": 6, "name": "Ensalada Otoño", "weight": "250g", "price": 8.99, "stars": 4, "emoji": "🥗", "description": "Pavo asado con vegetales de temporada, glaseado de arándano y hojas mixtas." }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Postres",
+      "items": 30,
+      "emoji": "🍰",
+      "bg": "#FFF7ED",
+      "products": [
+        { "id": 7, "name": "Lava Cake de Chocolate", "weight": "180g", "price": 6.50, "stars": 5, "emoji": "🍫", "description": "Pastel tibio con centro fundido de chocolate, acompañado de helado de vainilla." },
+        { "id": 8, "name": "Tiramisú Clásico", "weight": "200g", "price": 5.99, "stars": 5, "emoji": "🍰", "description": "Postre italiano con bizcochos empapados de espresso y crema de mascarpone." },
+        { "id": 9, "name": "Crème Brûlée", "weight": "150g", "price": 7.25, "stars": 4, "emoji": "🍮", "description": "Clásico flan francés con una costra de azúcar perfectamente caramelizada." }
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Pastas",
+      "items": 44,
+      "emoji": "🍝",
+      "bg": "#FFFBEA",
+      "products": [
+        { "id": 10, "name": "Espagueti Carbonara", "weight": "320g", "price": 10.99, "stars": 5, "emoji": "🍝", "description": "Pasta romana con panceta, yema de huevo, Pecorino Romano y pimienta negra." },
+        { "id": 11, "name": "Penne Arrabbiata", "weight": "300g", "price": 9.50, "stars": 4, "emoji": "🍝", "description": "Salsa de tomate picante con ajo y chile fresco, mezclada con penne al dente." },
+        { "id": 12, "name": "Fettuccine Alfredo", "weight": "340g", "price": 11.50, "stars": 4, "emoji": "🍝", "description": "Cremosa salsa de Parmesano envolviendo suaves tiras de fettuccine." }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name": "Bebidas",
+      "items": 30,
+      "emoji": "🥤",
+      "bg": "#EDF5FF",
+      "products": [
+        { "id": 13, "name": "Limonada Fresca", "weight": "400ml", "price": 3.50, "stars": 4, "emoji": "🍋", "description": "Limones recién exprimidos con menta, agua mineral y un toque de miel." },
+        { "id": 14, "name": "Smoothie de Mango", "weight": "350ml", "price": 4.99, "stars": 5, "emoji": "🥭", "description": "Mango tropical mezclado con leche de coco y un chorrito de limón." },
+        { "id": 15, "name": "Espresso Doble", "weight": "60ml", "price": 2.99, "stars": 5, "emoji": "☕", "description": "Doble shot de espresso premium con una crema rica y densa en la superficie." }
+      ]
+    }
+  ]
+}
