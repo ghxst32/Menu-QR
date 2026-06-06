@@ -294,7 +294,7 @@ function checkout() {
   const subtotal = items.reduce((s, i) => s + i.price * i.qty, 0);
   const total    = (subtotal + 1).toFixed(2);
 
-  const msg = `Hola! 👋 Quiero hacer un pedido:\n\n*Pedido:*\n${lines}\n\n💵 Total: $${total}\n\n¡Gracias! 🙏`;
+  const msg = `Hola!  Quiero hacer un pedido:\n\n*Pedido:*\n${lines}\n\n Total: $${total}\n\n¡Gracias! `;
 
   const phone   = menuData.whatsapp;
   const encoded = encodeURIComponent(msg);
@@ -360,8 +360,11 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('btn-add-cart') .addEventListener('click', addDetailToCart);
 
   // ── Summary toggle ──
-  document.querySelector('.summary-toggle').addEventListener('click', toggleSummary);
+  const summaryToggle = document.querySelector('.summary-toggle');
 
+if (summaryToggle) {
+    summaryToggle.addEventListener('click', toggleSummary);
+}
   // ── Checkout ──
   document.getElementById('btn-checkout').addEventListener('click', checkout);
 
