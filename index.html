@@ -89,7 +89,7 @@
 
     <div class="screen-body">
       <div class="detail-hero">
-        <div id="detail-emoji" class="detail-emoji">🍕</div>
+        <div id="detail-hero-img" class="detail-hero-img"></div>
         <div id="detail-name"  class="detail-name">Nombre del producto</div>
         <div class="detail-meta">
           <div id="detail-stars"  class="detail-stars"></div>
@@ -148,6 +148,34 @@
     <div class="screen-body">
       <div id="cart-list" class="cart-list"></div>
 
+      <!-- Customer name -->
+      <div id="customer-box" class="customer-box" style="display:none;">
+        <div class="customer-label">👤 ¿A nombre de quién es el pedido?</div>
+        <input
+          id="customer-name"
+          class="customer-input"
+          type="text"
+          placeholder="Ej: Juan García"
+          maxlength="50"
+          autocomplete="name"
+        />
+      </div>
+
+      <!-- Delivery mode -->
+      <div id="mode-box" class="mode-box" style="display:none;">
+        <div class="mode-label">¿Cómo lo recibes?</div>
+        <div class="mode-toggle">
+          <button class="mode-btn pickup selected" id="btn-pickup" onclick="setMode('pickup')">
+            <span class="mode-icon">🏪</span>
+            <span>Pedir y recoger</span>
+          </button>
+          <button class="mode-btn delivery" id="btn-delivery" onclick="setMode('delivery')">
+            <span class="mode-icon">🛵</span>
+            <span>A domicilio</span>
+          </button>
+        </div>
+      </div>
+
       <!-- Summary -->
       <div id="summary-box" class="summary-box" style="display:none;">
         <div class="summary-toggle">
@@ -163,9 +191,9 @@
             <span>Subtotal:</span>
             <span class="val" id="sum-subtotal">$0.00</span>
           </div>
-          <div class="summary-row">
-            <span>Envío:</span>
-            <span class="val" id="sum-tax">$1.00</span>
+          <div class="summary-row" id="sum-row-delivery">
+            <span>Envío a domicilio:</span>
+            <span class="val" id="sum-delivery">$0.00</span>
           </div>
           <div class="summary-row total">
             <span>Total:</span>
