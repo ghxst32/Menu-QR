@@ -24,7 +24,7 @@
       "bg": "#EDFAF0",
       "products": [
         { "id": 1, "name": "Ensalada Savannah", "weight": "300g", "price": 5.00, "stars": 4, "emoji": "🥗", "img": "assets/img/savannah.webp", "description": "Vegetales frescos picados con especias, tomates cherry y vinagreta ligera." },
-        { "id": 2, "name": "Ensalada Otoño", "weight": "250g", "price": 8.99, "stars": 4, "emoji": "🥗", "img": "assets/img/otoño.webp", "description": "Pavo asado con vegetales de temporada, glaseado de arándano y hojas mixtas." }
+        { "id": 2, "name": "Ensalada Otoño", "weight": "250g", "price": 8.99, "stars": 4, "emoji": "🥗", "img": "assets/img/otono.webp", "description": "Pavo asado con vegetales de temporada, glaseado de arándano y hojas mixtas." }
       ]
     },
     {
