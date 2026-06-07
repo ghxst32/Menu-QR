@@ -23,8 +23,8 @@
       "img": "assets/img/ensalada.webp",
       "bg": "#EDFAF0",
       "products": [
-        { "id": 1, "name": "Ensalada Savannah", "weight": "300g", "price": 5.00, "stars": 4, "emoji": "🥗", "img": "assets/img/savannah.webp", "description": "Vegetales frescos picados con especias, tomates cherry y vinagreta ligera." },
-        { "id": 2, "name": "Ensalada Otoño", "weight": "250g", "price": 8.99, "stars": 4, "emoji": "🥗", "img": "assets/img/otono.webp", "description": "Pavo asado con vegetales de temporada, glaseado de arándano y hojas mixtas." }
+        { "id": 5, "name": "Ensalada Savannah", "weight": "300g", "price": 5.00, "stars": 4, "emoji": "🥗", "img": "assets/img/savannah.webp", "description": "Vegetales frescos picados con especias, tomates cherry y vinagreta ligera." },
+        { "id": 6, "name": "Ensalada Otoño", "weight": "250g", "price": 8.99, "stars": 4, "emoji": "🥗", "img": "assets/img/otono.webp", "description": "Pavo asado con vegetales de temporada, glaseado de arándano y hojas mixtas." }
       ]
     },
     {
@@ -35,8 +35,8 @@
       "img": "assets/img/postre.webp",
       "bg": "#FFF7ED",
       "products": [
-        { "id": 1, "name": "Pastel de Chocolate", "weight": "180g", "price": 6.50, "stars": 5, "emoji": "🍫", "img": "assets/img/chocolate.webp", "description": "Pastel tibio con centro fundido de chocolate, acompañado de helado de vainilla." },
-        { "id": 2, "name": "Flan", "weight": "150g", "price": 7.25, "stars": 4, "emoji": "🍮", "img": "assets/img/flan.webp", "description": "Clásico flan francés con una costra de azúcar perfectamente caramelizada." }
+        { "id": 7, "name": "Pastel de Chocolate", "weight": "180g", "price": 6.50, "stars": 5, "emoji": "🍫", "img": "assets/img/chocolate.webp", "description": "Pastel tibio con centro fundido de chocolate, acompañado de helado de vainilla." },
+        { "id": 8, "name": "Flan", "weight": "150g", "price": 7.25, "stars": 4, "emoji": "🍮", "img": "assets/img/flan.webp", "description": "Clásico flan francés con una costra de azúcar perfectamente caramelizada." }
       ]
     },
     {
@@ -47,9 +47,9 @@
       "img": "assets/img/pasta.webp",
       "bg": "#FFFBEA",
       "products": [
-        { "id": 1, "name": "Espagueti Carbonara", "weight": "320g", "price": 10.99, "stars": 5, "emoji": "🍝", "img": "assets/img/espagueti.webp", "description": "Pasta romana con panceta, yema de huevo, Pecorino Romano y pimienta negra." },
-        { "id": 2, "name": "Penne Arrabbiata", "weight": "300g", "price": 9.50, "stars": 4, "emoji": "🍝", "img": "assets/img/penne.webp", "description": "Salsa de tomate picante con ajo y chile fresco, mezclada con penne al dente." },
-        { "id": 3, "name": "Fettuccine Alfredo", "weight": "340g", "price": 11.50, "stars": 4, "emoji": "🍝", "img": "assets/img/fettuccine.webp", "description": "Cremosa salsa de Parmesano envolviendo suaves tiras de fettuccine." }
+        { "id": 9, "name": "Espagueti Carbonara", "weight": "320g", "price": 10.99, "stars": 5, "emoji": "🍝", "img": "assets/img/espagueti.webp", "description": "Pasta romana con panceta, yema de huevo, Pecorino Romano y pimienta negra." },
+        { "id": 10, "name": "Penne Arrabbiata", "weight": "300g", "price": 9.50, "stars": 4, "emoji": "🍝", "img": "assets/img/penne.webp", "description": "Salsa de tomate picante con ajo y chile fresco, mezclada con penne al dente." },
+        { "id": 11, "name": "Fettuccine Alfredo", "weight": "340g", "price": 11.50, "stars": 4, "emoji": "🍝", "img": "assets/img/fettuccine.webp", "description": "Cremosa salsa de Parmesano envolviendo suaves tiras de fettuccine." }
       ]
     },
     {
@@ -60,9 +60,9 @@
       "img": "assets/img/bebida.webp",
       "bg": "#EDF5FF",
       "products": [
-        { "id": 1, "name": "Limonada Fresca", "weight": "400ml", "price": 3.50, "stars": 4, "emoji": "🍋", "img": "assets/img/limonada.webp", "description": "Limones recién exprimidos con menta, agua mineral y un toque de miel." },
-        { "id": 2, "name": "Coca cola", "weight": "350ml", "price": 4.99, "stars": 5, "emoji": "🥭", "img": "assets/img/coca.webp", "description": "Refresco dulce, con notas cítricas y toques a vainilla o canela." },
-        { "id": 3, "name": "Espresso Doble", "weight": "60ml", "price": 2.99, "stars": 5, "emoji": "☕", "img": "assets/img/cafe.webp", "description": "Doble shot de espresso premium con una crema rica y densa en la superficie." }
+        { "id": 12, "name": "Limonada Fresca", "weight": "400ml", "price": 3.50, "stars": 4, "emoji": "🍋", "img": "assets/img/limonada.webp", "description": "Limones recién exprimidos con menta, agua mineral y un toque de miel." },
+        { "id": 13, "name": "Coca cola", "weight": "350ml", "price": 4.99, "stars": 5, "emoji": "🥭", "img": "assets/img/coca.webp", "description": "Refresco dulce, con notas cítricas y toques a vainilla o canela." },
+        { "id": 14, "name": "Espresso Doble", "weight": "60ml", "price": 2.99, "stars": 5, "emoji": "☕", "img": "assets/img/cafe.webp", "description": "Doble shot de espresso premium con una crema rica y densa en la superficie." }
       ]
     }
   ]
