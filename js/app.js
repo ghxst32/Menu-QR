@@ -390,26 +390,26 @@ function checkout() {
   const total    = (subtotal + fee).toFixed(2);
 
   const modeLabel = deliveryMode === 'delivery'
-    ? '🛵 Servicio a domicilio'
-    : '🏪 Pedir y recoger en local';
+    ? 'Servicio a domicilio'
+    : 'Pedir y recoger en local';
 
   const feeLine = deliveryMode === 'delivery'
-    ? `🚚 Envío: $${fee.toFixed(2)}\n`
+    ? `Envío: $${fee.toFixed(2)}\n`
     : '';
 
   const msg =
-`Hola! 👋 Quiero hacer un pedido.
+`Hola! Quiero hacer un pedido.
 
-👤 *Nombre:* ${customerName}
-📦 *Tipo:* ${modeLabel}
+*Nombre:* ${customerName}
+*Tipo:* ${modeLabel}
 
 *Pedido:*
 ${lines}
 
-💵 Subtotal: $${subtotal.toFixed(2)}
-${feeLine}💰 *Total: $${total}*
+Subtotal: $${subtotal.toFixed(2)}
+${feeLine}*Total: $${total}*
 
-¡Gracias! 🙏`;
+¡Gracias! `;
 
   const phone   = menuData.whatsapp;
   const encoded = encodeURIComponent(msg);
